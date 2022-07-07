@@ -1,6 +1,6 @@
 package com.example.lib;
 
-import javax.inject.Inject;
+import javax.inject.Inject
 
 class Car @Inject constructor(val engine: Engine) {
     fun start() {
@@ -12,5 +12,4 @@ class Engine @Inject constructor() {
     fun start() {
         println("engine started!")
     }
-
 }
